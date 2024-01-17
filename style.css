@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
   .button {
-    background-color: #000000; /* black */
+    background-color: #000000;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -13,6 +9,3 @@
     font-size: 20px;
     margin-bottom: 10px
   }
-</style>
-</body>
-</html>
