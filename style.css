@@ -1,9 +1,9 @@
 html {
   background-image: url('media/img_back.png');
   background-position: center;
-  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
  .button {
