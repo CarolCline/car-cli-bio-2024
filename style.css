@@ -2,7 +2,7 @@
   background-image: url('media/carolyn_cline_photos.png');
   background-size: cover;
   background-position: center;
-  backdrop-filter: brightness(120%);
+  backdrop-filter: brightness(1%);
 }
 
  .button {
