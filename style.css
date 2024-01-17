@@ -2,7 +2,6 @@
   background-image: url('media/img_back.png');
   background-size: cover;
   background-position: center;
-  backdrop-filter: brightness(1%);
 }
 
  .button {
