@@ -11,6 +11,7 @@
   }
 
 body {
+  background-color: rgba(0, 0, 0, 0.10);
   background-image: url('media/carolyn_cline_photos.png');
   background-size: cover;
   background-position: center;
