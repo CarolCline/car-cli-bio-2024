@@ -1,17 +1,12 @@
-html {
-  background-image: url('media/img_back.png');
-  background-size: cover;
-  background-position: center;
+html, body {
   height: 100%;
 }
 
 body {
-  background-attachment: fixed;
-  height: 100%;
+  background-image: url('media/img_back.png');
+  background-size: cover;
+  background-position: center;
 }
-
-
-
 
  .button {
     background-color: #000000;
