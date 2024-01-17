@@ -6,12 +6,10 @@ html {
 }
 
 body {
-  background-image: url('media/img_back.png');
-  background-size: cover;
-  background-position: center;
   background-attachment: fixed;
   height: 100%;
 }
+
 
 
 
