@@ -1,4 +1,7 @@
-html, body {
+html {
+  background-image: url('media/img_back.png');
+  background-size: cover;
+  background-position: center;
   height: 100%;
 }
 
@@ -9,6 +12,7 @@ body {
   background-attachment: fixed;
   height: 100%;
 }
+
 
 
  .button {
