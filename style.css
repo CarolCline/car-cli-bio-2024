@@ -2,6 +2,10 @@ body {
       font-size: 25px;
     }
     
+h1 {
+  font-size: 2em;
+}
+    
 .footer {
     font-size: 2px;
 }
