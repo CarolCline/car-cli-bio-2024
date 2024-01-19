@@ -30,7 +30,6 @@ html {
     margin-bottom: 10px
   }
   
-  <!-- footer flex start  -->
   body {
     min-height: 100vh;
     display: flex;
@@ -39,7 +38,6 @@ html {
 footer {
     margin-top: auto;
 }
-  <!-- footer flex end  -->
 
 .roundedButton {
     background-color: #04AA6D; /* Change the background color */
