@@ -21,6 +21,10 @@ html {
   body {
       font-size: 25px;
     }
+    
+  .footer {
+    font-size: 16px;
+}
 
 .roundedButton {
     background-color: #04AA6D; /* Change the background color */
