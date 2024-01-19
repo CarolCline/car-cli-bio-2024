@@ -30,6 +30,7 @@ html {
     margin-bottom: 10px
   }
   
+  <!-- footer flex  -->
   body {
     min-height: 100vh;
     display: flex;
