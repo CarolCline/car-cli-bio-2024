@@ -45,6 +45,7 @@ html {
 }
 
 footer {
+    clear: both;
     margin-top: auto;
     padding-left: 0 !important;
     padding-right: 0 !important;
