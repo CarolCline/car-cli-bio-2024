@@ -51,7 +51,8 @@ html {
 
 footer {
     margin-top: auto;
-    background-color: #FACB70;
+    clear:both;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    background-color: #FACB70;
 }
