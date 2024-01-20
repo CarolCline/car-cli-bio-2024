@@ -52,6 +52,6 @@ html {
 footer {
     margin-top: auto;
     background-color: #FACB70;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
