@@ -22,6 +22,29 @@ html {
   background-size: cover;
 }
 
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: #000; /* Black background color */
+    overflow: hidden; /* Prevents overflow of content */
+}
+
+.navbar a {
+    float: left; /* Align links to the left side */
+    display: block; /* Change links to block elements */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center text within the links */
+    padding: 14px 16px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Light grey background on hover */
+    color: black; /* Text color changes to black on hover */
+}
+
  .button {
     background-color: #000000;
     border: none;
