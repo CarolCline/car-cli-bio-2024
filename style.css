@@ -5,6 +5,8 @@ body {
 body {
     padding-top: 50px; /* Adjust the value based on the height of your navbar */
     margin: 0; /* Add this line to reset the default margin */
+    padding-left: 20px; /* Add left padding */
+    padding-right: 20px; /* Add right padding */
 }
     
 h1 {
