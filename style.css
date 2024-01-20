@@ -57,21 +57,3 @@ html {
 footer {
     margin-top: auto;
 }
-
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.roundedButton {
-    background-color: #04AA6D; /* Change the background color */
-    color: white; /* Change the text color */
-    border: none; /* Remove border */
-    padding: 15px 32px; /* Add some padding */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px; /* Add rounded corners */
-}
