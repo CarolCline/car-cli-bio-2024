@@ -1,8 +1,8 @@
 body {
-    padding-top: 50px; /* Adjust the value based on the height of your navbar */
-    margin: 0; /* Add this line to reset the default margin */
-    padding-left: 20px; /* Add left padding */
-    padding-right: 20px; /* Add right padding */
+    padding-top: 50px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 25px;
 }
     
@@ -19,28 +19,27 @@ html {
 }
 
 .navbar {
-    position: fixed; /* Keep the navbar at the top */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Full width */
-    background-color: #000; /* Black background color */
-    z-index: 10; /* Ensure it stays on top of other content */
-    overflow: hidden; /* Clear floats */
+    width: 100%;
+    background-color: #000;
+    z-index: 10;
+    overflow: hidden;
 }
 
 .navbar a {
-    float: left; /* Align links to the left side */
-    display: block; /* Change links to block elements */
-    color: white; /* Set text color to white */
-    text-align: center; /* Center text within the links */
-    padding: 14px 16px; /* Add padding for spacing */
-    text-decoration: none; /* Remove underline from links */
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-/* Change link color on hover */
 .navbar a:hover {
-    background-color: #ddd; /* Light grey background on hover */
-    color: black; /* Text color changes to black on hover */
+    background-color: #ddd;
+    color: black;
 }
   
   body {
