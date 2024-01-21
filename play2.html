@@ -1,7 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
+  <style>
+    /* Style for the navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #333; /* Set the background color of the bar */
+    }
+
+    /* Style for the website name */
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2; /* Set the color of the website name */
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Style for the collapsed menu icon */
+    .navbar input {
+      display: none; /* Hide the checkbox input by default */
+    }
+
+    .navbar label {
+      display: none; /* Hide the label by default */
+      cursor: pointer;
+    }
+
+    .navbar input:checked + label + ul {
+      display: block; /* Display the menu when the checkbox is checked */
+    }
+
+    @media screen and (max-width: 600px) {
+      .navbar a:not(:first-child) {display: none;}
+      .navbar input:checked + label {
+        display: block; /* Display the label when the checkbox is checked */
+      }
+      .navbar ul {
+        display: none; /* Hide the menu by default */
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- The navigation bar -->
+<div class="navbar">
+  <input type="checkbox" id="menu-toggle"> <!-- The checkbox input for toggling the menu -->
+  <label for="menu-toggle">&#9776;</label> <!-- The collapsed menu icon -->
+  <a href="#home">Your Website Name</a> <!-- Replace "Your Website Name" with your actual website name -->
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
 
 </body>
 </html>
