@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /play.html
+Disallow: /play2.html
