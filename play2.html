@@ -1,57 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    /* Style for the navigation bar */
-    .navbar {
-      overflow: hidden;
-      background-color: #333; /* Set the background color of the bar */
-    }
-
-    /* Style for the website name */
-    .navbar a {
-      float: left;
-      display: block;
-      color: #f2f2f2; /* Set the color of the website name */
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    /* Style for the collapsed menu icon */
-    .icon {
-      display: none; /* Hide the icon by default */
-    }
-
-    @media screen and (max-width: 600px) {
-      /* Show the icon when the screen is less than 600px wide */
-      .navbar a:not(:first-child) {display: none;}
-      .navbar a.icon {
-        float: right;
-        display: block;
-      }
-    }
-  </style>
-</head>
-<body>
-<!-- The navigation bar -->
-<div class="navbar">
-  <a href="#home">Your Website Name</a> <!-- Replace "Your Website Name" with your actual website name -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> <!-- The collapsed menu icon -->
-</div>
-
-<script>
-  // Function to toggle the display of the menu items
-  function myFunction() {
-    var x = document.getElementsByClassName("navbar")[0];
-    if (x.className === "navbar") {
-      x.className += " responsive";
-    } else {
-      x.className = "navbar";
-    }
-  }
-</script>
+  
 
 </body>
 </html>
