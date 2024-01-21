@@ -33,6 +33,19 @@ html {
     background-color: #ddd;
     color: black;
 }
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+img.mySlideInImage {
+  animation: slideIn 2s ease-out forwards;
+}
   
   body {
     min-height: 100vh;
