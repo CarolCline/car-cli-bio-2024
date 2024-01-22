@@ -58,7 +58,8 @@ img.mySlideInImage {
 }
 
 footer {
-    clear: both;
+    left: 0;
+    <!-- clear: both; -->
     width: 100%;
     font-size: 15px;
     margin-top: auto;
