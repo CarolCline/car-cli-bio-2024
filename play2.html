@@ -5,32 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Scroll-Triggered Animation</title>
 <style>
-  .animate-me {
+  .slide-in {
     opacity: 0;
-    transition: opacity 5s ease-out;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
   }
 
-  .animate-me.visible {
+  .slide-in.visible {
+    transform: translateX(0);
     opacity: 1;
+  }
+
+  .skid-out {
+    transition: transform 0.5s ease-in, opacity 0.5s ease-in;
+  }
+
+  .skid-out.visible {
+    transform: translateX(100%);
+    opacity: 0;
   }
 </style>
 </head>
 <body>
 
-<p>Quisque placerat accumsan mattis. Pellentesque sapien ante, interdum eget libero quis, fermentum suscipit eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia odio metus. Integer tempor massa id congue interdum. Nam suscipit semper quam, nec cursus diam rutrum a. Aliquam erat volutpat. Sed enim massa, dapibus non ullamcorper ut, congue et odio. Aenean nisl ex, malesuada nec lacinia vitae, volutpat a diam. Aliquam libero orci, bibendum a orci ac, congue ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat.</p>
-
-<p>Quisque placerat accumsan mattis. Pellentesque sapien ante, interdum eget libero quis, fermentum suscipit eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia odio metus. Integer tempor massa id congue interdum. Nam suscipit semper quam, nec cursus diam rutrum a. Aliquam erat volutpat. Sed enim massa, dapibus non ullamcorper ut, congue et odio. Aenean nisl ex, malesuada nec lacinia vitae, volutpat a diam. Aliquam libero orci, bibendum a orci ac, congue ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat.</p>
-
-<p>Quisque placerat accumsan mattis. Pellentesque sapien ante, interdum eget libero quis, fermentum suscipit eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia odio metus. Integer tempor massa id congue interdum. Nam suscipit semper quam, nec cursus diam rutrum a. Aliquam erat volutpat. Sed enim massa, dapibus non ullamcorper ut, congue et odio. Aenean nisl ex, malesuada nec lacinia vitae, volutpat a diam. Aliquam libero orci, bibendum a orci ac, congue ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat.</p>
-
-<p>Quisque placerat accumsan mattis. Pellentesque sapien ante, interdum eget libero quis, fermentum suscipit eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia odio metus. Integer tempor massa id congue interdum. Nam suscipit semper quam, nec cursus diam rutrum a. Aliquam erat volutpat. Sed enim massa, dapibus non ullamcorper ut, congue et odio. Aenean nisl ex, malesuada nec lacinia vitae, volutpat a diam. Aliquam libero orci, bibendum a orci ac, congue ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat.</p>
-
-<div class="animate-me">
-  <!-- Content to animate -->
-  <img src="media/beauty_50.gif" class="mySlideInImage"; style="width:60%; display: block; margin-left: auto; margin-right: auto; filter: drop-shadow(3px 3px 3px #000);">
+<div class="slide-in skid-out">
+  <img src="your_image.jpg" alt="Descriptive text for the image">
 </div>
-
-<p>Quisque placerat accumsan mattis. Pellentesque sapien ante, interdum eget libero quis, fermentum suscipit eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia odio metus. Integer tempor massa id congue interdum. Nam suscipit semper quam, nec cursus diam rutrum a. Aliquam erat volutpat. Sed enim massa, dapibus non ullamcorper ut, congue et odio. Aenean nisl ex, malesuada nec lacinia vitae, volutpat a diam. Aliquam libero orci, bibendum a orci ac, congue ullamcorper orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat.</p>
 
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
@@ -42,12 +42,10 @@
           entry.target.classList.remove('visible');
         }
       });
-    });
+    }, { threshold: [0.5] }); // Adjust the threshold value as needed
 
-    const targets = document.querySelectorAll('.animate-me');
-    targets.forEach(target => {
-      observer.observe(target);
-    });
+    const target = document.querySelector('.slide-in.skid-out');
+    observer.observe(target);
   });
 </script>
 
