@@ -76,6 +76,21 @@ Aliquam turpis odio, malesuada eu lacinia sed, finibus sed nibh. Etiam tristique
 
 <img id="myImage" src="media/large_image.jpg" style="width:100px">
 
+<!-- second -->
+#myImage {
+  width: 100px;
+  transition: width 0.3s ease;
+}
+
+#myImage:target {
+  width: 200px; /* Enlarge the image */
+}
+</style>
+</head>
+<body>
+
+<a href="#myImage"><img id="myImage" src="your_image.jpg"></a>
+
 
 </body>
 </html>
