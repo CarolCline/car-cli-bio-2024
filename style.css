@@ -61,7 +61,7 @@ footer {
     clear: both;
     width: 100%;
     font-size: 15px;
-    margin-top: auto;
+    <!-- margin-top: auto; -->
     background-color: #FACB70;
 }
 
