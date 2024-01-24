@@ -51,10 +51,18 @@ img.mySlideInImage {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /*
     padding-top: 55px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 25px; */
     font-size: 25px;
+}
+
+main {
+  padding-top: 55px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 25px;
 }
 
 footer {
