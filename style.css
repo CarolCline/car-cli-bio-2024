@@ -59,7 +59,8 @@ img.mySlideInImage {
 
 footer {
     clear: both;
-    position: left;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     font-size: 15px;
     background-color: #FACB70;
