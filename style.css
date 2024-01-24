@@ -57,12 +57,20 @@ img.mySlideInImage {
     font-size: 25px;
 }
 
+/*
 footer {
     clear: both;
     position: left;
     width: 100%;
     font-size: 15px;
-    /* margin-top: auto; */
+    background-color: #FACB70;
+} */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
     background-color: #FACB70;
 }
 
