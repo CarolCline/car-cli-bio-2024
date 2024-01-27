@@ -86,6 +86,19 @@ table, th, td {
   border-collapse: collapse;
 }
 
+table {
+    width: 100%;
+  }
+  td {
+    width: 50%; /* Each cell takes 50% of the table width */
+    position: relative; /* Ensure the image stays within the cell */
+  }
+  img {
+    width: 100%; /* Make the image fill the cell */
+    height: 100%; /* Make the image fill the cell */
+    object-fit: cover; /* Fill the cell while maintaining aspect ratio */
+  }
+
 /*
 footer {
     clear: both;
