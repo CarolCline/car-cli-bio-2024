@@ -76,6 +76,11 @@ main {
     width: 100%;
 }
 
+.image-table {
+    max-width: 100%;
+    height: auto;
+}
+
 /*
 footer {
     clear: both;
