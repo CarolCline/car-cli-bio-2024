@@ -96,7 +96,7 @@ table {
   img {
     width: 100%; /* Make the image fill the cell */
     height: 100%; /* Make the image fill the cell */
-    object-fit: contain; /* Fill the cell while maintaining aspect ratio */
+    object-fit: fill; /* Fill the cell while maintaining aspect ratio */
   }
 
 /*
