@@ -99,4 +99,6 @@ td {
   height: auto;
   padding: 2px; /* Add 2px padding to the images */
   box-sizing: border-box; /* Include padding in the element's total width and height */
+  display: block; /* Ensure the images are displayed as block elements */
+  margin: auto; /* Center the images horizontally */
 }
