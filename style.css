@@ -85,7 +85,7 @@ table {
 td {
   width: 50%;
   background-color: black;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .responsive-image {
