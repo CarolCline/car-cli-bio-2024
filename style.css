@@ -89,7 +89,14 @@ td {
   /* border: 2px solid red; */
 }
 
-.responsive-image {
+/* .responsive-image {
   width: 100%;
   height: auto;
+} */
+
+.responsive-image {
+  width: calc(100% - 4px); /* Adjust the width to consider the 2px padding on each side */
+  height: auto;
+  padding: 2px; /* Add 2px padding to the images */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
 }
