@@ -78,8 +78,7 @@ main {
 
 .image-table {
   width: 100%;
-  height: auto%;
-  object-fit: contain;
+  height: 100%;
 }
 
 table, th, td {
@@ -92,8 +91,8 @@ table {
   }
   td {
     width: 50%;
+    height: 100%;
     position: top;
-    height: 50%;
   }
   
   img {
