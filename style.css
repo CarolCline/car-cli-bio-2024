@@ -89,16 +89,11 @@ td {
   /* border: 2px solid red; */
 }
 
-/* .responsive-image {
-  width: 100%;
-  height: auto;
-} */
-
 .responsive-image {
-  width: calc(100% - 4px); /* Adjust the width to consider the 2px padding on each side */
+  width: calc(100% - 4px);
   height: auto;
-  padding: 2px; /* Add 2px padding to the images */
-  box-sizing: border-box; /* Include padding in the element's total width and height */
-  display: block; /* Ensure the images are displayed as block elements */
-  margin: auto; /* Center the images horizontally */
+  padding: 2px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
 }
