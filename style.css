@@ -79,7 +79,7 @@ main {
 .image-table {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 table, th, td {
