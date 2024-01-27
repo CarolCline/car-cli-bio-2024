@@ -79,10 +79,13 @@ main {
 table {
   width: 100%;
   table-layout: fixed;
+  border: 2px solid pink;
 }
 
 td {
   width: 50%;
+  background-color: lightpink;
+  border: 2px solid pink;
 }
 
 .responsive-image {
