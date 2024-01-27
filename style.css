@@ -92,6 +92,8 @@ table {
   td {
     width: 50%;
     position: relative;
+    height: 200px;
+    
   }
   img {
     width: 100%;
