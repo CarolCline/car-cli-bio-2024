@@ -83,6 +83,7 @@ table {
 }
 
 td {
+  vertical-align: top;
   width: 50%;
   background-color: black;
   /* border: 2px solid red; */
