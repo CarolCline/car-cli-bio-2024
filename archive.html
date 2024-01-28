@@ -3,18 +3,20 @@
 <head>
   
   <style>
-  table {
+  #myTable {
     border: 1px solid black; /* for black cell borders */
     border-collapse: collapse; /* to collapse the borders */
   }
-  th {
-    font-size: 14px; /* specify the desired font size for the table labels */
+  #myTable th, #myTable td {
+    border: 1px solid black; /* for black borders around each cell */
   }
-  td {
+  #myTable th {
+    font-size: 12px; /* specify the desired font size for the table labels */
+  }
+  #myTable td {
     background-color: transparent; /* for no cell background color */
     color: black; /* for black text color */
     font-size: 14px; /* for the font size of the table content */
-    border: 1px solid black; /* for black borders around each cell */
   }
 </style>
   
@@ -43,7 +45,7 @@
         
         <!-- content -->
           
-<table>
+<table id="myTable">
   <tr>
     <th>DATE</th>
     <th>TIME</th>
