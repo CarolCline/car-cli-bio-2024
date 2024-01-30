@@ -71,9 +71,9 @@ main {
   text-align: center;
   background-color: #FFC0CB;
   color: white;
-  width: fit-content; /* Adjust as needed */
-  margin: auto;
-  padding: 20px;
+  width: 300px;
+  word-break: break-all;
+  padding: 10px;
 }
 
 #footer {
