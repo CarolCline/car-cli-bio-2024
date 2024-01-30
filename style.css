@@ -117,7 +117,7 @@ td {
   margin: auto;
 }
 
-img.mySlideInImage {
+img.image-limit {
   max-width: 100%;
   height: auto;
   width: 654px;
