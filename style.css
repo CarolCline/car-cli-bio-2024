@@ -68,12 +68,12 @@ main {
 }
 
 .centered-box {
-  text-align: center;
   background-color: #F096A8;
   color: white;
-  width: 300px;
+  width: 400px;
   word-break: break-all;
   padding: 10px;
+  margin: 0 auto; /* Add this line for horizontal centering */
 }
 
 #footer {
