@@ -61,7 +61,7 @@ img.mySlideInImage {
 
 main {
   flex: 1;
-  padding-top: calc(80px + 20px);
+  padding-top: 70;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 25px;
