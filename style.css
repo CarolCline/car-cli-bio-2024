@@ -70,7 +70,7 @@ main {
 .centered-box {
   background-color: #F096A8;
   color: white;
-  width: 400px;
+  width: 355px;
   overflow-wrap: normal;
   padding: 10px;
   margin: 0 auto; /* Add this line for horizontal centering */
