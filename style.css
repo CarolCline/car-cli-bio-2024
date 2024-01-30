@@ -69,10 +69,11 @@ main {
 
 .centered-box {
   text-align: center;
-  border: 1px solid black;
-  width: 10em; /* Adjust this value to match the width of "Welcome to the." */
-  overflow-wrap: break-word;
-  margin: auto; /* This will center the box itself */
+  background-color: pink; /* Solid color */
+  color: white; /* White text */
+  width: fit-content; /* Adjust this value as needed */
+  margin: auto;
+  padding: 20px; /* Add padding as needed */
 }
 
 #footer {
