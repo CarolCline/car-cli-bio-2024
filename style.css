@@ -61,7 +61,7 @@ img.mySlideInImage {
 
 main {
   flex: 1;
-  padding-top: auto; /* nav spacing */
+  padding-top: 80; /* nav spacing */
   /* padding-top: 80px; nav spacing */
   padding-left: 25px;
   padding-right: 25px;
