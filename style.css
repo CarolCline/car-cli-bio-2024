@@ -76,6 +76,11 @@ main {
   margin: 0 auto; /* Add this line for horizontal centering */
 }
 
+.centered-box h1 {
+  margin: 0;
+  padding: 0;
+}
+
 #footer {
     margin-top: auto;
     background-color: black;
