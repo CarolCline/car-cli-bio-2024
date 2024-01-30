@@ -69,11 +69,11 @@ main {
 
 .centered-box {
   text-align: center;
-  background-color: pink; /* Solid color */
-  color: white; /* White text */
-  width: fit-content; /* Adjust this value as needed */
+  background-color: #FFC0CB;
+  color: white;
+  width: fit-content; /* Adjust as needed */
   margin: auto;
-  padding: 20px; /* Add padding as needed */
+  padding: 20px;
 }
 
 #footer {
