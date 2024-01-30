@@ -31,6 +31,10 @@ html {
     color: black;
 }
 
+img {
+  margin-top: 50px; /* nav bar - padding */
+}
+
 @keyframes slideIn {
   from {
     transform: translateX(-100%);
