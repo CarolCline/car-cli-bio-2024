@@ -50,6 +50,15 @@ img.mySlideInImage {
     flex-direction: column;
 }
 
+.content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.content p {
+  text-align: left;
+}
+
 main {
   flex: 1;
   padding-top: 80px; /* nav spacing */
