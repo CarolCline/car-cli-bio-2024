@@ -73,7 +73,7 @@ main {
   width: 355px;
   overflow-wrap: normal;
   padding: 10px;
-  margin: 0 auto; /* Add this line for horizontal centering */
+  margin: 0 auto; /* horizontal centering */
 }
 
 .centered-box h1 {
