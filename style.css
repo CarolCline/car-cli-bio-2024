@@ -111,12 +111,6 @@ main {
     padding: 10px;
 }
 
-@media (min-width: 700px) {
-    #footer {
-        position: relative;
-    }
-}
-
 table {
   width: 100%;
   table-layout: fixed;
