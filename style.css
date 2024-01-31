@@ -102,7 +102,7 @@ main {
 } */
 
 #footer {
-    position: absolute;
+    position: auto;
     bottom: 0;
     width: 100%;
     background-color: black;
