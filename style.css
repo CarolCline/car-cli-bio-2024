@@ -108,7 +108,13 @@ main {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px; /* Add appropriate padding */
+    padding: 10px;
+}
+
+@media (min-width: 700px) {
+    #footer {
+        position: relative;
+    }
 }
 
 table {
