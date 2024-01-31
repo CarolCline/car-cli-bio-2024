@@ -110,7 +110,7 @@ main {
     text-align: center;
     padding: 0px;
 }
-
+/* hide
 table {
   width: 100%;
   table-layout: fixed;
@@ -122,13 +122,12 @@ table {
   table {
     width: 700px;
   }
-}
+} */
 
-/* old
 table {
   width: 100%;
   table-layout: fixed;
-} */
+}
 
 td {
   vertical-align: top;
