@@ -47,11 +47,17 @@ img {
 img.mySlideInImage {
   animation: slideIn 2s ease-out forwards;
 }
-  
+  /* old
   body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+} */
+
+body {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .content {
