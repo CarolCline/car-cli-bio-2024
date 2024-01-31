@@ -115,11 +115,9 @@ td {
   box-sizing: border-box;
   display: block;
   margin: auto;
-  margin-left: auto; /* new */
-  margin-right: auto; /* new */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   .responsive-image {
     max-width: 100%;
   }
