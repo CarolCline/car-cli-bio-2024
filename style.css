@@ -102,6 +102,18 @@ table {
   table-layout: fixed;
 }
 
+@media (min-width: 700px) {
+  table {
+    width: 700px;
+  }
+}
+
+/* old
+table {
+  width: 100%;
+  table-layout: fixed;
+} */
+
 td {
   vertical-align: top;
   width: 50%;
