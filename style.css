@@ -15,6 +15,7 @@ html {
   }
   #myTable th {
     font-size: 16px;
+    color: black;
   }
   #myTable td {
     background-color: transparent;
