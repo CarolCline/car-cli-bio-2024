@@ -61,7 +61,7 @@ main {
   */
   padding-left: 25px;
   padding-right: 25px;
-  font-size: 25px;
+  /* font-size: 25px; remove for now */
 }
 
 .centered-box {
