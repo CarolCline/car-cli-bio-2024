@@ -57,12 +57,8 @@ img {
 main {
   flex: 1;
   padding-top: 50px;
-  /*
-  padding-top: calc(70px + 20px);
-  */
   padding-left: 25px;
   padding-right: 25px;
-  /* font-size: 25px; remove for now */
 }
 
 .centered-box {
@@ -79,16 +75,6 @@ main {
   padding: 0;
 }
 
-/* old
-#footer {
-    margin-top: auto;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 0px;
-    width: 100%;
-} */
-
 #footer {
     position: auto;
     bottom: 0;
@@ -97,21 +83,8 @@ main {
     color: white;
     text-align: center;
     padding: 0px;
+    font-size: 16px;
 }
-
-/* hide
-table {
-  width: 100%;
-  table-layout: fixed;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 700px) {
-  table {
-    width: 700px;
-  }
-} */
 
 table {
   width: 100%;
