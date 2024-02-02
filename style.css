@@ -108,7 +108,8 @@ main {
 table {
   width: 100%;
   table-layout: fixed;
-  color: white;
+  color: red; /* changed white to */
+  
 }
 
 td {
