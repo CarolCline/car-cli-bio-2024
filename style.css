@@ -117,7 +117,7 @@ td {
   vertical-align: top;
   width: 50%;
   background-color: black;
-  padding: 0px; !important;
+  padding: 2px; !important;
 }
 
 .responsive-image {
@@ -136,7 +136,7 @@ td {
 }
 
 figure {
-  margin: 1;
+  margin: 0;
 }
 
 figcaption {
