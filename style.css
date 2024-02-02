@@ -6,7 +6,7 @@ html {
   background-size: cover;
 }
 
-/* media photos */
+/* media photos
   #myTable {
     border: 1px solid black;
     border-collapse: collapse;
@@ -24,7 +24,7 @@ html {
     color: black;
     font-size: 16px;
     padding: 0;
-  }
+  } */
 
 .navbar {
     position: fixed;
