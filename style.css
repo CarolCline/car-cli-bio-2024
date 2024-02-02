@@ -107,7 +107,7 @@ main {
 
 /* photo table */
 table {
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   width: 100%;
   table-layout: fixed;
   color: white; /* font */
