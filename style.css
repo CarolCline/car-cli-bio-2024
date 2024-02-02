@@ -134,3 +134,11 @@ td {
     max-width: 100%;
   }
 }
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin: 0;
+}
