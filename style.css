@@ -164,6 +164,7 @@ blockquote {
   margin-right: auto;
 }
 
+/* round corners ai image */
 #copilot-image {
   border-radius: 15px;
 }
