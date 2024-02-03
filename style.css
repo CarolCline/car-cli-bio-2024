@@ -163,3 +163,7 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
 }
+
+#copilot-image {
+  border-radius: 15px;
+}
