@@ -147,6 +147,8 @@ figcaption {
 }
 
 .unselectable {
+  -khtml-user-select: none; /* Konqueror */                       -webkit-touch-callout: none; /* iOS Safari */ 
+  -o-user-select: none; /* Opera */
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer */
