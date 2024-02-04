@@ -46,8 +46,12 @@
     </main>
     
   <footer id="footer">
-        <p>&copy; Carolyn Cline, 2007-<script>document.write(new Date().getFullYear())</script></p>
-    </footer>
+  <p>© Carolyn Cline, 2007-<span id="year"></span></p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
     
 </body>
 
