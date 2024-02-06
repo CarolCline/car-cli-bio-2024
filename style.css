@@ -204,5 +204,5 @@ blockquote {
     padding: 5px; /* Padding inside grid items */
     border: 1px solid transparent; /* Border for grid items */
     font-size: 20px; /* text size */
-    font-color: white;
+    color: white;
   }
