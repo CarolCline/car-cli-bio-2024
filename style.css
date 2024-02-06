@@ -186,10 +186,9 @@ blockquote {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
     grid-template-rows: repeat(8, auto); /* 8 rows */
-    gap: 1px; /* Space between grid items */
+    gap: 5px; /* Space between grid items */
     max-width: 700px; /* Maximum width of the grid */
     margin: auto; /* Center the grid horizontally */
-    border-radius: 15px;
   }
 
   /* Define the grid layout for screens wider than 700px */
@@ -201,9 +200,9 @@ blockquote {
 
   /* Style for the grid items */
   .grid-item {
-    background: black; /* background */
+    background: transparent; /* background */
     padding: 5px; /* Padding inside grid items */
     border: 1px solid transparent; /* Border for grid items */
     font-size: 20px; /* text size */
-    color: white;
+    color: black;
   }
