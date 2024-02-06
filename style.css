@@ -146,6 +146,11 @@ figcaption {
   margin: 0;
 }
 
+/* caption famous people */
+#famous {
+  max-width: 300px;
+}
+
 .unselectable {
   -khtml-user-select: none; /* Konqueror */                       -webkit-touch-callout: none; /* iOS Safari */ 
   -o-user-select: none; /* Opera */
