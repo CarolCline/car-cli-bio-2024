@@ -203,4 +203,5 @@ blockquote {
     background: transparent; /* Light grey background */
     padding: 20px; /* Padding inside grid items */
     border: 1px solid transparent; /* Border for grid items */
+    font-size: 16px; /* text size */
   }
