@@ -151,7 +151,7 @@ figcaption {
     display: block;
     max-width: 300px;
     margin: auto;
-    text-align: center;
+    text-align: left;
   }
 
 .unselectable {
