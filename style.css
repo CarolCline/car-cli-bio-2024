@@ -202,5 +202,5 @@ blockquote {
   .grid-item {
     background: transparent; /* Light grey background */
     padding: 20px; /* Padding inside grid items */
-    border: 1px solid #ddd; /* Border for grid items */
+    border: 1px solid transparent; /* Border for grid items */
   }
