@@ -186,7 +186,7 @@ blockquote {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
     grid-template-rows: repeat(8, auto); /* 8 rows */
-    gap: 10px; /* Space between grid items */
+    gap: 5px; /* Space between grid items */
     max-width: 700px; /* Maximum width of the grid */
     margin: auto; /* Center the grid horizontally */
   }
