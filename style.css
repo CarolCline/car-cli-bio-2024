@@ -200,8 +200,9 @@ blockquote {
 
   /* Style for the grid items */
   .grid-item {
-    background: transparent; /* Light grey background */
+    background: black; /* background */
     padding: 5px; /* Padding inside grid items */
     border: 1px solid transparent; /* Border for grid items */
     font-size: 20px; /* text size */
+    font-color: white;
   }
