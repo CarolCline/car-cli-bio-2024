@@ -53,6 +53,7 @@ html {
 
 img {
   margin-top: 70px; /* nav bar - padding */
+  margin: 0; /* reduce image spacing */
 }
 
 body {
