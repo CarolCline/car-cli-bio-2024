@@ -55,14 +55,14 @@ img {
   margin-top: 70px; /* nav bar - padding */
 }
 
-  body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* width: auto; new change */
-    /* width: 100%; */
-    /* max-width: 700px; */
-    margin: 0 auto;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* width: auto; new change */
+  /* width: 100%; */
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .content {
