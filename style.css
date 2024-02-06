@@ -175,34 +175,34 @@ blockquote {
   margin-right: auto;
 }
 
-/* round corners ai image */
+/* round corners of images */
 #copilot-image {
   border-radius: 15px;
 }
 
-/* photo grid start */
-/* Define the grid layout for all screen sizes */
+/* •••• photo grid start •••• */
+
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
-    grid-template-rows: repeat(8, auto); /* 8 rows */
-    gap: 5px; /* Space between grid items */
-    max-width: 700px; /* Maximum width of the grid */
-    margin: auto; /* Center the grid horizontally */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, auto);
+    gap: 5px;
+    max-width: 700px;
+    margin: auto;
   }
 
-  /* Define the grid layout for screens wider than 700px */
   @media (min-width: 700px) {
     .grid-container {
-      grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
-  /* Style for the grid items */
   .grid-item {
-    background: transparent; /* background */
-    padding: 5px; /* Padding inside grid items */
-    border: 1px solid transparent; /* Border for grid items */
-    font-size: 20px; /* text size */
+    background: transparent;
+    padding: 5px; 
+    border: 1px solid transparent;
+    font-size: 20px;
     color: black;
   }
+  
+  /* •••• photo grid end •••• */
