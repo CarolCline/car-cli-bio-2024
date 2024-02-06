@@ -180,7 +180,7 @@ blockquote {
   border-radius: 15px;
 }
 
-/* from here play */
+/* photo grid start */
 /* Define the grid layout for all screen sizes */
   .grid-container {
     display: grid;
@@ -194,7 +194,7 @@ blockquote {
   /* Define the grid layout for screens wider than 700px */
   @media (min-width: 700px) {
     .grid-container {
-      grid-template-columns: repeat(4, 1fr); /* 4 columns on larger screens */
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
     }
   }
 
