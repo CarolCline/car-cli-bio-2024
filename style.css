@@ -179,3 +179,28 @@ blockquote {
 #copilot-image {
   border-radius: 15px;
 }
+
+/* from here play */
+/* Define the grid layout for all screen sizes */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
+    grid-template-rows: repeat(8, auto); /* 8 rows */
+    gap: 10px; /* Space between grid items */
+    max-width: 700px; /* Maximum width of the grid */
+    margin: auto; /* Center the grid horizontally */
+  }
+
+  /* Define the grid layout for screens wider than 700px */
+  @media (min-width: 700px) {
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns on larger screens */
+    }
+  }
+
+  /* Style for the grid items */
+  .grid-item {
+    background: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Padding inside grid items */
+    border: 1px solid #ddd; /* Border for grid items */
+  }
