@@ -146,15 +146,9 @@ figcaption {
   margin: 0;
 }
 
-/* caption famous people
-#famous {
+/* famous people image and caption */
+.small {
   max-width: 300px;
-} */
-
-/* center famous people image */
-.center {
-  display: block; /* add this line */
-  margin: auto; /* add this line */
 }
 
 .unselectable {
