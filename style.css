@@ -189,6 +189,7 @@ blockquote {
     gap: 1px; /* Space between grid items */
     max-width: 700px; /* Maximum width of the grid */
     margin: auto; /* Center the grid horizontally */
+    border-radius: 15px;
   }
 
   /* Define the grid layout for screens wider than 700px */
