@@ -210,6 +210,6 @@ blockquote {
   /* first image span two */
   css
 .wide {
-  -webkit-column-span: all; /* Chrome, Safari, Opera */
-  column-span: all;
+  float: left;
+  width: 100%; /* This will make the image span two columns */
 }
