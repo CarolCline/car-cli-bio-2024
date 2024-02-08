@@ -232,6 +232,7 @@ blockquote {
   }
 
   .grid-item-2 {
+    grid-column: span 2;
     background: transparent;
     padding: 5px; 
     border: 1px solid transparent;
