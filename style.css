@@ -218,7 +218,7 @@ blockquote {
 
   .grid-container-2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, auto);
     gap: 5px;
     max-width: 700px;
@@ -227,7 +227,7 @@ blockquote {
 
   @media (min-width: 700px) {
     .grid-container-2 {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
