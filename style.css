@@ -213,3 +213,30 @@ blockquote {
   float: left;
   width: 100%; /* This will make the image span two columns */
 }
+
+/* •••• photo grid 2 start •••• */
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
+    gap: 5px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  @media (min-width: 700px) {
+    .grid-container-2 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .grid-item-2 {
+    background: transparent;
+    padding: 5px; 
+    border: 1px solid transparent;
+    font-size: 20px;
+    color: black;
+  }
+  
+  /* •••• photo grid 2 end •••• */
