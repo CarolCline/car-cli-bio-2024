@@ -232,12 +232,12 @@ blockquote {
   }
 
   .grid-item-2 {
-    grid-column: repeat(2, 1fr);
-    background: transparent;
-    padding: 5px; 
-    border: 1px solid transparent;
-    font-size: 20px;
-    color: black;
-  }
+  grid-column: 1 / span 2; /* This will make the grid item start at the first column and span two columns */
+  background: transparent;
+  padding: 5px; 
+  border: 1px solid transparent;
+  font-size: 20px;
+  color: black;
+}
   
   /* •••• photo grid 2 end •••• */
