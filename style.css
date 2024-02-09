@@ -240,9 +240,5 @@ blockquote {
   font-size: 20px;
   color: black;
 }
-
-.grid-item-a {
-  grid-column: 1fr 1fr ;
-}
   
   /* •••• photo grid 2 end •••• */
