@@ -236,7 +236,7 @@ blockquote {
 		grid-row: 2 ;
   background: transparent;
   padding: 5px; 
-  border: 1px solid skyblue;
+  border: 1px solid transparent;
   font-size: 20px;
   color: black;
 }
